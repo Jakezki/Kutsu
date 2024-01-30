@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const email = document.getElementById('email').value;
         const attendance = document.getElementById('attendance').value;
 
-        // Process RSVP data here
-        // For example, send to a server or update the confirmation message
+
         confirmationMessage.textContent = `Thank you for your RSVP, ${email}. We have received your response: ${attendance === 'yes' ? 'Attending' : 'Not attending'}.`;
     });
 });
